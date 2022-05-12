@@ -1,5 +1,6 @@
 FROM ubuntu 
 RUN apt update
+RUN workdir /
 RUN git clone https://github.com/jero0137/Contenedores.git
 RUN apt install python3 -y
 RUN apt install python3-pip -y
