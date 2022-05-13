@@ -12,4 +12,4 @@ RUN pip3 install pandas
 RUN pip3 install openpyxl
 COPY data.xlsx /
 COPY app.py / 
-EXPOSE 8000
+EXPOSE 80
