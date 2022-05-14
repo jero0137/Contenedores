@@ -6,7 +6,7 @@ import plotly.graph_objs as go # libreria para graficar
 import pandas as pd    #libreria para manejar datos
 
 app = dash.Dash()   #creo el objeto app con los atributos y metodos de dash
-df = pd.read_excel('datamedellinmapa.xlsx') #leo mi base de datos
+df = pd.read_excel('data.xlsx') #leo mi base de datos
 #configuracion web
 app.layout = html.Div([
     html.H1('Social Life'),
