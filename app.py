@@ -8,4 +8,4 @@ def index():
 #funcion principal
 if __name__ == '__main__':
     #cargar el objeto principal a todas las interfaces de red en el puerto 80
-    app.run(host='0.0.0.0',port=8000)
+    app.run(host='0.0.0.0',port=80)
