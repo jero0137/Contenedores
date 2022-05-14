@@ -11,5 +11,5 @@ RUN pip3 install dash
 RUN pip3 install pandas
 RUN pip3 install openpyxl 
 RUN mv Contenedores/app.py /
-RUN mv COntenedores/data.xlsx /
+RUN mv Contenedores/data.xlsx /
 EXPOSE 80
